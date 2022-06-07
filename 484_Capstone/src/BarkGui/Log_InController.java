@@ -17,7 +17,7 @@ import javafx.fxml.Initializable;
 public class Log_InController implements Initializable {
 
     /**
-     * Initializes the controller class.
+   this is a test of the branch
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
