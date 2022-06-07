@@ -22,9 +22,9 @@
             <Font name="Garamond" size="25.0" />
          </font>
       </Text>
-      <Text layoutX="232.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" underline="true">
+      <Text layoutX="145.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volunteer Log In" underline="true">
          <font>
-            <Font name="Garamond Bold" size="48.0" />
+            <Font name="Garamond" size="48.0" />
          </font>
       </Text>
       <Text layoutX="233.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account:">
@@ -38,5 +38,10 @@
             <Font name="Garamond" size="14.0" />
          </font>
       </Text>
+      <Button layoutX="24.0" layoutY="24.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

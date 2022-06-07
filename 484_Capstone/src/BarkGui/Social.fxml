@@ -23,5 +23,10 @@
       <TextArea layoutX="45.0" layoutY="118.0" prefHeight="317.0" prefWidth="259.0" />
       <Text layoutX="141.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Post" textAlignment="CENTER" wrappingWidth="66.09765625" />
       <Button layoutX="142.0" layoutY="456.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="POST" />
+      <Button layoutX="44.0" layoutY="44.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
