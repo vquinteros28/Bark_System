@@ -5,8 +5,10 @@
  */
 package pkg484_capstone;
 
-//testing that this works lol
-
+/**
+ *
+ * @author black
+ */
 public class Main {
 
     /**
