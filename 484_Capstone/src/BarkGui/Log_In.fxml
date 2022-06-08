@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="BarkGui.Log_InController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BarkGui.Log_InController">
    <children>
       <TextField layoutX="233.0" layoutY="130.0" />
       <Button alignment="CENTER" layoutX="438.0" layoutY="164.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Log In" textAlignment="CENTER" />
@@ -27,12 +26,6 @@
             <Font name="Garamond" size="48.0" />
          </font>
       </Text>
-      <Text layoutX="233.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account:">
-         <font>
-            <Font name="Garamond" size="25.0" />
-         </font>
-      </Text>
-      <Button alignment="CENTER" layoutX="438.0" layoutY="314.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Create" textAlignment="CENTER" />
       <Text layoutX="177.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter credentials or create a new account.">
          <font>
             <Font name="Garamond" size="14.0" />

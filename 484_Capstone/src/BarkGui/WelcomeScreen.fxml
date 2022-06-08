@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="BarkGui.WelcomeScreenController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BarkGui.WelcomeScreenController">
    <children>
       <Text layoutX="196.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" underline="true">
          <font>
@@ -34,5 +33,11 @@
             <Font size="18.0" />
          </font>
       </Button>
+      <Button alignment="CENTER" layoutX="249.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Apply Here" textAlignment="CENTER" />
+      <Text layoutX="104.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please click apply here to apply as a Volunteer">
+         <font>
+            <Font name="Garamond" size="25.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
