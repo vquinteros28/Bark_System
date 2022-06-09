@@ -11,35 +11,36 @@ package CapStoneClasses;
  */
 public class Application {
     public int appID;
-    public String aFirst,aLast,dob,experience,status,specialization;
-    public int volunteerID;
-    public int empID;
+    public String aFirst,aLast,dob,email, phone, address, experience,status;
+    static public int appCount = 0;
     protected final static int MAXAPPS = 500;
     public static Application [] apps = new Application[MAXAPPS];
     
     
     public Application(){
         this.appID = 0;
-        this.aFirst = "First";
-        this.aLast = "Last:";
-        this.dob = "DOB";
-        this.experience = "Experience";
-        this.status = "status";
-        this.specialization = "specialiazation";
-        this.volunteerID = 0;
-        this.empID = 0;
+        this.aFirst = null;
+        this.aLast = null;
+        this.dob = null;
+        this.email = null;
+        this.phone = null;
+        this.address = null;
+        this.experience = null;
+        this.status = null;
+        appCount++;
     }
     
-    public Application(int appID,String aFirst,String aLast,String dob,String experience,String status,String specialization,int volunteerID,int empID){
-        this.appID = appID;
+    public Application(String aFirst,String aLast,String dob,String email, 
+            String phone, String address, String experience){
+        this.appID = appCount++;
         this.aFirst = aFirst;
         this.aLast = aLast;
         this.dob = dob;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
         this.experience = experience;
-        this.status = status;
-        this.specialization = specialization;
-        this.volunteerID = volunteerID;
-        this.empID = empID;
+        this.status = "New application";
     }
     
     //GETTERS
@@ -56,20 +57,20 @@ public class Application {
     public String getDOB(){
         return dob;
     }
+    public String getEmail(){
+        return email;
+    }
+    public String getPhone(){
+        return phone;
+    }
+    public String getAddress(){
+        return address;
+    }
     public String getExperience(){
         return experience;
     }
     public String getStatus(){
         return status;
-    }
-    public String getSpecialization(){
-        return specialization;
-    }
-    public int getVolunteerID(){
-        return volunteerID;
-    }
-    public int getEmpID(){
-        return empID;
     }
     
     //SETTERS
@@ -85,19 +86,19 @@ public class Application {
     public void setDOB(String birthDate){
         this.dob = birthDate;
     }
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+    public void setAddress(String address){
+        this.phone = address;
+    }
     public void setExperience(String exp){
         this.experience = exp;
     }
     public void setStatus(String stat){
         this.status = stat;
-    }
-    public void setSpecialization(String spec){
-        this.specialization = spec;
-    }
-    public void setVolunteerID(int vID){
-        this.volunteerID = vID;
-    }
-    public void setEmpID(int eID){
-        this.empID = eID;
     }
 }
