@@ -15,17 +15,19 @@ public class StartApplication extends Application{
     @Override
     public void start(Stage primaryStage) throws IOException, Exception {
 
-        Parent root = FXMLLoader.load(getClass().getResource("BarkGui/WelcomeScreenController.fxml")); //Sets main fxml screen
-        Scene scene = new Scene(root);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Login");
-        primaryStage.setScene(new Scene(root,300,275 ));
-        primaryStage.show();
+        FXMLLoader Loader = new FXMLLoader(Main.class.getResource("WelcomeScreenController.fxml"));
+        
+//        Parent root = FXMLLoader.load(getClass().getResource("WelcomeScreenController.fxml")); //Sets main fxml screen
+//        scene = new Scene(root);
+//        primaryStage.setScene(scene);
+//        primaryStage.setTitle("Login");
+//        primaryStage.setScene(new Scene(root,300,275 ));
+//        primaryStage.show();
 
     }
     public static void main(String[] args) {
         launch(args);
     }
 }
-    
+     
 
